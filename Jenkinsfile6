@@ -1,0 +1,18 @@
+pipeline{
+    agent any
+    stages{
+        stage('build'){
+            steps{
+                #!/bin/bash 
+                  
+# Bash script  
+echo "Hello World!"           }
+        }
+        stage('testing'){
+            steps{
+                echo "succesfull"
+            }
+        }
+    }
+
+}
